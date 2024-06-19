@@ -1,0 +1,236 @@
+.contact_container{
+    background-color: #242424;
+    width: 100%;
+    height: 503px;
+    margin-top: 139px;
+    padding-top: 84px;
+    
+}
+
+.contact_box{
+    width: 1110px;
+    height: 419px;
+    margin: auto;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact_content{
+    width: 1110px;
+    height: 327px;
+    margin: 0 auto;
+    display: flex;
+    gap: 220px;
+    position: relative;
+}
+
+.contact_text{
+    width: 445px;
+    height: 208px;
+}
+
+.contact_text h2{
+    color: #ffffff;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    width: 330px;
+    height: 88px;    
+    margin-bottom: 36px;
+    margin-top: 0;
+}
+
+.contact_text p{
+    color:#D9D9D9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    width: 445px;
+    height: 84px;
+}
+
+.contact_form{
+    width: 445px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.contact_form input{
+    color: #ffffff;
+    width: 445px;
+    height: 43px;
+    background-color: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.2222222238779068px;
+    text-align: left;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding-left: 24px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+label[for=email]{
+    position: relative;
+}
+
+.error_icon{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+small{
+    color: #FF6F5B;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.1666666716337204px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 48px;
+}
+
+.contact_form textarea{
+    color: #ffffff;
+    width: 445px;
+    height: 107px;
+    background-color: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.2222222238779068px;
+    text-align: left;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding-left: 24px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact_form input:focus, .contact_form textarea:focus{
+    border-bottom: 1px solid #4EE1A0;
+}
+
+.button{
+    height: 38px;
+    text-align: end;
+}
+
+.effects{
+    position: absolute;
+    z-index: +1;
+    top: 243px;
+    left: -165px;
+}
+
+@media screen and (max-width:1024px){
+    .contact_container{
+        margin-top: 100px;
+        padding-top: 60px;
+        height: 703px;
+    }
+
+    .contact_box{
+        width: 708.49px;
+        height: 643px;
+    }
+
+    .contact_content{
+        display: flex;
+        flex-direction: column;
+        width: 445px;
+        height: 560px;
+        gap: 48px;
+    }  
+    
+    .contact_text{
+        height: 176px;
+    }
+
+    .contact_text h2{
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        height: 72px;
+        letter-spacing: -2.045454502105713px;
+        text-align: center;
+        margin:0 auto;
+    }
+
+    .contact_text p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        height: 84px;
+        margin-top: 20px;
+    }
+
+    .effects{
+        top: 487px;
+        left: -368px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .contact_text{
+        width: 343px;
+        margin: auto;
+    }
+
+    .contact_box{
+        width: 343px;
+        margin: auto;
+    }
+
+    .contact_content{
+        width: 100%;
+    }
+
+    .contact_text h2{
+        width: 343px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -1.1363636255264282px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .contact_text p{
+        width: 343px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+
+    }
+
+    .contact_form, .contact_form input, .contact_form textarea{
+        width: 343px;
+        margin: auto;
+    }
+
+    .effects{
+        top: 416px;
+        left: -120px;
+    }
+    
+}

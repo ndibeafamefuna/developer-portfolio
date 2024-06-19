@@ -1,0 +1,188 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1110px;   
+    max-width: 1440px;   
+}
+
+h2{
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4444444477558136px;
+    text-align: left;
+    width: 172px;
+    height: 32px;
+    margin-top: 39px; 
+}
+
+.icon_box{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    width: 192.49px;
+    margin-top: 43px;
+    margin-right: 29.51px;
+    gap: 32px;
+    position: relative;
+}
+
+.github, .github_hover{
+    width:24.61px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+.frontend, .frontend_hover{
+    width:24.6px;
+    height: 22px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.linkedin, .linkedin_hover{
+    width:24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.twitter, .twitter_hover{
+    width:23.28px;
+    height: 18.93px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.github_hover{
+    position: absolute;
+    left: 0;
+    opacity: 0%;
+}
+
+.frontend_hover{
+    position: absolute;
+    left: 56.61px;
+    opacity: 0%;
+}
+
+.linkedin_hover{
+    position: absolute;
+    left: 113.21px;
+    opacity: 0%;
+}
+
+.twitter_hover{
+    position: absolute;
+    left: 169.21px;
+    opacity: 0%;
+}
+
+.github,
+.frontend,
+.linkedin,
+.twitter{
+    opacity: 100%;
+}
+
+.github:hover,
+.frontend:hover,
+.linkedin:hover,
+.twitter:hover{
+    opacity: 0%;
+}
+
+.github_hover:hover,
+.frontend_hover:hover,
+.linkedin_hover:hover,
+.twitter_hover:hover{
+    opacity: 100%;
+}
+
+
+@media screen and (max-width:1024px){
+    header{
+        width: 708.49px;     
+    }
+
+    .icon_box{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        width: 129px;
+    }
+
+    .icon_box{
+        margin-top: 0;
+        margin-bottom: 49px;
+        width: 153.99px;
+        height: 20px;
+        gap: 25.6px;
+    }
+
+    .github, .github_hover{
+        width: 19.69px;
+        height: 19.2px;
+
+    }
+
+    .frontend, .frontend_hover{
+        width: 19.68px;
+        height: 17.6px;
+
+    }
+
+    .linkedin, .linkedin_hover{
+        width: 19.2px;
+        height: 19.2px;
+
+    }
+
+    .twitter, .twitter_hover{
+        width: 18.62px;
+        height: 15.14px;
+
+    }
+
+    .github_hover{
+        left: 0;
+    }
+    
+    .frontend_hover{
+        left: 45.29px;
+    }
+    
+    .linkedin_hover{
+        left: 90.57px;
+    }
+    
+    .twitter_hover{
+        left: 135.37px;
+    }
+}
