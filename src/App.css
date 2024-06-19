@@ -9,11 +9,11 @@
 body{
   font-family: 'Space Grotesk', sans-serif;
   background-color: #151515;
-  width: 100vw;
 }
 
+
 #root{
-  width: 100vw;
+  overflow: hidden;
 }
 
 

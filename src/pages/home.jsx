@@ -7,7 +7,7 @@ import Footer from "../layout/footer/footer"
 
 const Home = () => {
   return (
-    <div>
+    <div style={{width:'100%'}}>
         <Header />
         <Hero />
         <Skills />
